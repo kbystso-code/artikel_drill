@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Artikel-Drill (der/den/dem)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">Artikel-Drill</div>
+    <div class="meta">
+      <span id="progress">0/20</span>
+      <button id="btnReset" class="btn ghost" type="button">Reset</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="statusrow">
+        <div class="pill" id="pillMode">Masc • Def • der/den/dem</div>
+        <div class="pill" id="pillInfo">Session: 20</div>
+      </div>
+
+      <div class="question" id="questionText">Start drücken</div>
+
+      <div class="choices" role="group" aria-label="choices">
+        <button class="btn choice" data-choice="der" type="button">der</button>
+        <button class="btn choice" data-choice="den" type="button">den</button>
+        <button class="btn choice" data-choice="dem" type="button">dem</button>
+      </div>
+
+      <div class="feedback" id="feedback" aria-live="polite"></div>
+
+      <div class="actions">
+        <button id="btnStart" class="btn primary" type="button">Start (20)</button>
+        <button id="btnNext" class="btn" type="button" disabled>Next</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Ergebnis</h2>
+
+      <div class="grid2">
+        <div class="stat">
+          <div class="label">Score</div>
+          <div class="value" id="statScore">0/20</div>
+        </div>
+        <div class="stat">
+          <div class="label">Streak</div>
+          <div class="value" id="statStreak">0</div>
+        </div>
+        <div class="stat">
+          <div class="label">Akk (den)</div>
+          <div class="value" id="statAkk">-</div>
+        </div>
+        <div class="stat">
+          <div class="label">Dat (dem)</div>
+          <div class="value" id="statDat">-</div>
+        </div>
+      </div>
+
+      <details class="details">
+        <summary>Fehler (letzte Session)</summary>
+        <ol id="mistakeList"></ol>
+      </details>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

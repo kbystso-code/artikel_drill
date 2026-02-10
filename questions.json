@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "sessionSize": 20,
+    "choices": ["der", "den", "dem"]
+  },
+  "questions": [
+    { "id": "q001", "text": "Ich sehe ___ Hund.", "answer": "den", "targetCase": "akk", "hint": "sehen → Wen/Was? → den" },
+    { "id": "q002", "text": "Ich habe ___ Ball.", "answer": "den", "targetCase": "akk", "hint": "haben → Wen/Was? → den" },
+    { "id": "q003", "text": "Wir kaufen ___ Apfel.", "answer": "den", "targetCase": "akk", "hint": "kaufen → Wen/Was? → den" },
+    { "id": "q004", "text": "Ich finde ___ Fehler.", "answer": "den", "targetCase": "akk", "hint": "finden → Wen/Was? → den" },
+    { "id": "q005", "text": "Ich lese ___ Text.", "answer": "den", "targetCase": "akk", "hint": "lesen → Wen/Was? → den" },
+    { "id": "q006", "text": "Ich höre ___ Unterricht.", "answer": "den", "targetCase": "akk", "hint": "hören → Wen/Was? → den" },
+    { "id": "q007", "text": "Ich sehe ___ Lehrer.", "answer": "den", "targetCase": "akk", "hint": "sehen → Akkusativ → den" },
+    { "id": "q008", "text": "Ich verstehe ___ Satz.", "answer": "den", "targetCase": "akk", "hint": "verstehen → Wen/Was? → den" },
+
+    { "id": "q009", "text": "Ich helfe ___ Vater.", "answer": "dem", "targetCase": "dat", "hint": "helfen → Wem? → dem" },
+    { "id": "q010", "text": "Ich spiele mit ___ Ball.", "answer": "dem", "targetCase": "dat", "hint": "mit → Dativ → dem" },
+    { "id": "q011", "text": "Ich gehe zu ___ Arzt.", "answer": "dem", "targetCase": "dat", "hint": "zu → Dativ → dem" },
+    { "id": "q012", "text": "Ich bin bei ___ Freund.", "answer": "dem", "targetCase": "dat", "hint": "bei → Dativ → dem" },
+    { "id": "q013", "text": "Ich sitze neben ___ Mann.", "answer": "dem", "targetCase": "dat", "hint": "neben (Ort) → Dativ → dem" },
+    { "id": "q014", "text": "Ich komme aus ___ Park.", "answer": "dem", "targetCase": "dat", "hint": "aus → Dativ → dem" },
+    { "id": "q015", "text": "Ich laufe mit ___ Hund.", "answer": "dem", "targetCase": "dat", "hint": "mit → Dativ → dem" },
+    { "id": "q016", "text": "Ich spreche mit ___ Lehrer.", "answer": "dem", "targetCase": "dat", "hint": "mit → Dativ → dem" },
+
+    { "id": "q017", "text": "___ Hund ist groß.", "answer": "der", "targetCase": "nom", "hint": "Wer? → der" },
+    { "id": "q018", "text": "___ Ball ist neu.", "answer": "der", "targetCase": "nom", "hint": "Wer? → der" },
+    { "id": "q019", "text": "___ Lehrer kommt.", "answer": "der", "targetCase": "nom", "hint": "Subjekt → der" },
+    { "id": "q020", "text": "___ Text ist kurz.", "answer": "der", "targetCase": "nom", "hint": "Subjekt → der" },
+
+    { "id": "q021", "text": "Ich sehe ___ Park.", "answer": "den", "targetCase": "akk", "hint": "sehen → Wen/Was? → den" },
+    { "id": "q022", "text": "Ich gehe zu ___ Park.", "answer": "dem", "targetCase": "dat", "hint": "zu → Dativ → dem" }
+  ]
+}

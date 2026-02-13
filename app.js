@@ -286,4 +286,9 @@ async function init() {
   elProgress.textContent = `0/${DEFAULT_SESSION_SIZE}`;
   resetSessionStats();
 }
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js');
+}
+
 init();

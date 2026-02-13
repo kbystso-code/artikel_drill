@@ -134,3 +134,24 @@ body{
 
 .details{ margin-top:10px; }
 #mistakeList{ margin: 8px 0 0 20px; color:var(--muted); }
+
+.seg{
+  display:flex;
+  gap:8px;
+}
+
+.segbtn{
+  border:1px solid var(--border);
+  background:#fff;
+  color:var(--muted);
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:12px;
+  min-height:auto;
+}
+
+.segbtn.active{
+  background:#0f172a;
+  color:#fff;
+  border-color:#0f172a;
+}

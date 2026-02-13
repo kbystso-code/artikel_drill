@@ -18,16 +18,20 @@
   <main class="container">
     <section class="card">
       <div class="statusrow">
-        <div class="pill" id="pillMode">Masc • Def • der/den/dem</div>
+        <div class="seg" role="group" aria-label="Gender">
+          <button class="segbtn" id="btnMasc" type="button" data-gender="masc">Masc</button>
+          <button class="segbtn" id="btnFem" type="button" data-gender="fem">Fem</button>
+          <button class="segbtn" id="btnNeut" type="button" data-gender="neut">Neut</button>
+        </div>
         <div class="pill" id="pillInfo">Session: 20</div>
       </div>
 
       <div class="question" id="questionText">Start drücken</div>
 
       <div class="choices" role="group" aria-label="choices">
-        <button class="btn choice" data-choice="der" type="button">der</button>
-        <button class="btn choice" data-choice="den" type="button">den</button>
-        <button class="btn choice" data-choice="dem" type="button">dem</button>
+        <button class="btn choice" data-choice="nom" type="button" id="btnChoice1">der</button>
+        <button class="btn choice" data-choice="akk" type="button" id="btnChoice2">den</button>
+        <button class="btn choice" data-choice="dat" type="button" id="btnChoice3">dem</button>
       </div>
 
       <div class="feedback" id="feedback" aria-live="polite"></div>

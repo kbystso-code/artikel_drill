@@ -116,7 +116,17 @@ body{
   margin-top:10px;
   display:flex;
   gap:10px;
+  align-items:center;
 }
+
+#btnStart{
+  flex: 0 0 auto;
+}
+
+#btnNext{
+  margin-left: auto;  /* ★右端へ */
+}
+
 
 .grid2{
   display:grid;
@@ -154,4 +164,11 @@ body{
   background:#0f172a;
   color:#fff;
   border-color:#0f172a;
+}
+
+#btnNext{
+  font-size:26px;      /* 文字を大きく */
+  min-height:72px;     /* 高さを大きく */
+  padding:16px 22px;   /* 余白を大きく */
+  font-weight:900;
 }

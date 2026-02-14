@@ -181,14 +181,15 @@ function handleChoice(choiceKey) {
     streak += 1;
     setFeedback('ok', `✅ Richtig (${correctLabel})`);
   } else {
-    streak = 0;
-    setFeedback('ng', `❌ Tipp: ${q.hint}`);
-    sessionStats.mistakes.push({
-      text: q.text,
-      chosenLabel,
-      correctLabel
-    });
-  }
+  streak = 0;
+  setFeedback('ng', `❌ Tipp: ${q.hint}  |  Richtig: ${correctLabel}`);
+  sessionStats.mistakes.push({
+    text: q.text,
+    chosenLabel,
+    correctLabel
+  });
+}
+
 
   elBtnNext.disabled = false;
 }

@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'artikel-drill-v2';
+const CACHE_NAME = 'artikel-drill-v3';
 const ASSETS = [
   './',
   './index.html',

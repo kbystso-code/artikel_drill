@@ -172,3 +172,41 @@ body{
   padding:16px 22px;   /* 余白を大きく */
   font-weight:900;
 }
+
+/* Topbar: title | launcher | meta */
+.topbar{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap; /* 狭いとき折り返す */
+}
+
+/* metaは右寄せ（2段目になっても右に行きやすい） */
+.topbar .meta{
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Launcher button */
+.launcherBtn{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.06);
+  color: inherit;
+  text-decoration: none;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* 狭い時はlauncherを2段目に落としやすくする（必要なら） */
+@media (max-width: 520px){
+  .launcherBtn{ order: 3; }
+  .topbar .meta{ order: 2; }
+}

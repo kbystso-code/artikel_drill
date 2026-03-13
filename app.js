@@ -6,14 +6,15 @@ const GENDER_KEY = 'artikel_drill_gender_v1';
 const QUESTION_FILES = {
   masc: 'questions_masc.json',
   fem: 'questions_fem.json',
-  neut: 'questions_neut.json'
+  neut: 'questions_neut.json',
+  mix: null
 };
 
 // ボタン表示ラベル（定冠詞のみ）
 const CHOICE_LABELS = {
-  masc: { nom: 'der', akk: 'den', dat: 'dem' },
-  fem:  { nom: 'die', akk: 'die', dat: 'der' },
-  neut: { nom: 'das', akk: 'das', dat: 'dem' }
+  masc: { nom: 'der (Nom)', akk: 'den (Akk)', dat: 'dem (Dat)' },
+  fem:  { nom: 'die (Nom)', akk: 'die (Akk)', dat: 'der (Dat)' },
+  neut: { nom: 'das (Nom)', akk: 'das (Akk)', dat: 'dem (Dat)' }
 };
 
 // State
@@ -57,6 +58,7 @@ const elChoice3 = document.getElementById('btnChoice3');
 const elBtnMasc = document.getElementById('btnMasc');
 const elBtnFem  = document.getElementById('btnFem');
 const elBtnNeut = document.getElementById('btnNeut');
+const elBtnMix = document.getElementById('btnMix');
 
 function shuffle(arr) {
   const a = arr.slice();
@@ -105,25 +107,44 @@ function renderMistakes() {
 }
 
 function setActiveGenderButton() {
-  [elBtnMasc, elBtnFem, elBtnNeut].forEach(b => b.classList.remove('active'));
-  if (currentGender === 'masc') elBtnMasc.classList.add('active');
-  if (currentGender === 'fem') elBtnFem.classList.add('active');
-  if (currentGender === 'neut') elBtnNeut.classList.add('active');
+  [elBtnMasc, elBtnFem, elBtnNeut, elBtnMix]
+    .filter(Boolean)
+    .forEach(b => b.classList.remove('active'));
+
+  if (currentGender === 'masc' && elBtnMasc) elBtnMasc.classList.add('active');
+  if (currentGender === 'fem' && elBtnFem) elBtnFem.classList.add('active');
+  if (currentGender === 'neut' && elBtnNeut) elBtnNeut.classList.add('active');
+  if (currentGender === 'mix' && elBtnMix) elBtnMix.classList.add('active');
 }
 
-function applyChoiceLabels() {
-  const labels = CHOICE_LABELS[currentGender] || CHOICE_LABELS.masc;
+function applyChoiceLabels(gender = currentGender) {
+  const labels = CHOICE_LABELS[gender] || CHOICE_LABELS.masc;
   elChoice1.textContent = labels.nom;
   elChoice2.textContent = labels.akk;
   elChoice3.textContent = labels.dat;
 }
 
-function labelOf(choiceKey) {
-  const labels = CHOICE_LABELS[currentGender] || CHOICE_LABELS.masc;
+function labelOf(choiceKey, gender = currentGender) {
+  const labels = CHOICE_LABELS[gender] || CHOICE_LABELS.masc;
   return labels[choiceKey] || choiceKey;
 }
 
 async function loadQuestionsForGender(gender) {
+  if (gender === 'mix') {
+    const files = [
+      QUESTION_FILES.masc,
+      QUESTION_FILES.fem,
+      QUESTION_FILES.neut
+    ];
+
+    const results = await Promise.all(
+      files.map(file => fetch(file, { cache: 'no-store' }).then(res => res.json()))
+    );
+
+    allQuestions = results.flatMap(data => data.questions || []);
+    return;
+  }
+
   const file = QUESTION_FILES[gender] || QUESTION_FILES.masc;
   const res = await fetch(file, { cache: 'no-store' });
   const data = await res.json();
@@ -147,8 +168,14 @@ function renderQuestion() {
     finishSession();
     return;
   }
+
   const q = sessionQuestions[idx];
   elQuestion.textContent = q.text;
+
+  // ★ Mixでは問題ごとのgenderで表示切替
+  const effectiveGender = q.gender || currentGender;
+  applyChoiceLabels(effectiveGender);
+
   setFeedback('', '');
   elBtnNext.disabled = true;
   updateProgress();
@@ -173,8 +200,9 @@ function handleChoice(choiceKey) {
 
   applyCaseStats(q, isCorrect);
 
-  const chosenLabel = labelOf(choiceKey);
-  const correctLabel = labelOf(correctKey);
+  const effectiveGender = q.gender || currentGender;
+  const chosenLabel = labelOf(choiceKey, effectiveGender);
+  const correctLabel = labelOf(correctKey, effectiveGender);
 
   if (isCorrect) {
     score += 1;
@@ -268,6 +296,9 @@ elBtnReset.addEventListener('click', () => {
 elBtnMasc.addEventListener('click', () => changeGender('masc'));
 elBtnFem.addEventListener('click', () => changeGender('fem'));
 elBtnNeut.addEventListener('click', () => changeGender('neut'));
+if (elBtnMix) {
+  elBtnMix.addEventListener('click', () => changeGender('mix'));
+}
 
 // Init
 async function init() {

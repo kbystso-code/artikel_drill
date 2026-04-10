@@ -1,46 +1,324 @@
 {
   "questions": [
-    { "id": "m001", "text": "Ich sehe ___ Hund.", "answer": "akk", "targetCase": "akk", "gender": "masc", "gender": "masc", "hint": "sehen → Wen/Was? → Akk" },
-    { "id": "m002", "text": "Ich habe ___ Ball.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "haben → Wen/Was? → Akk" },
-    { "id": "m003", "text": "Wir kaufen ___ Apfel.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "kaufen → Wen/Was? → Akk" },
-    { "id": "m004", "text": "Ich finde ___ Fehler.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "finden → Wen/Was? → Akk" },
-    { "id": "m005", "text": "Ich lese ___ Text.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "lesen → Wen/Was? → Akk" },
-    { "id": "m006", "text": "Ich höre ___ Unterricht.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "hören → Wen/Was? → Akk" },
-    { "id": "m007", "text": "Ich sehe ___ Lehrer.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "sehen → Wen/Was? → Akk" },
-    { "id": "m008", "text": "Ich verstehe ___ Satz.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "verstehen → Wen/Was? → Akk" },
-    { "id": "m009", "text": "Ich mag ___ Kuchen.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "mögen → Wen/Was? → Akk" },
-    { "id": "m010", "text": "Ich suche ___ Stift.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "suchen → Wen/Was? → Akk" },
-    { "id": "m011", "text": "Ich nehme ___ Rucksack.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "nehmen → Wen/Was? → Akk" },
-    { "id": "m012", "text": "Ich sehe ___ Film.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "sehen → Wen/Was? → Akk" },
-    { "id": "m013", "text": "Ich kenne ___ Mann.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "kennen → Wen/Was? → Akk" },
-    { "id": "m014", "text": "Ich öffne ___ Schrank.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "öffnen → Wen/Was? → Akk" },
-    { "id": "m015", "text": "Ich brauche ___ Computer.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "brauchen → Wen/Was? → Akk" },
-    { "id": "m016", "text": "Ich sehe ___ Park.", "answer": "akk", "targetCase": "akk", "gender": "masc", "hint": "sehen → Wen/Was? → Akk" },
-
-    { "id": "m017", "text": "Ich helfe ___ Vater.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "helfen → Wem? → Dat" },
-    { "id": "m018", "text": "Ich spiele mit ___ Ball.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "mit → Dativ → Dat" },
-    { "id": "m019", "text": "Ich gehe zu ___ Arzt.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "zu → Dativ → Dat" },
-    { "id": "m020", "text": "Ich bin bei ___ Freund.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "bei → Dativ → Dat" },
-    { "id": "m021", "text": "Ich komme aus ___ Park.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "aus → Dativ → Dat" },
-    { "id": "m022", "text": "Ich spreche mit ___ Lehrer.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "mit → Dativ → Dat" },
-    { "id": "m023", "text": "Ich laufe mit ___ Hund.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "mit → Dativ → Dat" },
-    { "id": "m024", "text": "Ich sitze neben ___ Mann.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "neben (Ort) → Dativ → Dat" },
-    { "id": "m025", "text": "Ich wohne bei ___ Opa.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "bei → Dativ → Dat" },
-    { "id": "m026", "text": "Ich spiele mit ___ Bruder.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "mit → Dativ → Dat" },
-    { "id": "m027", "text": "Ich komme von ___ Bahnhof.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "von → Dativ → Dat" },
-    { "id": "m028", "text": "Ich stehe vor ___ Spiegel.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "vor (Ort) → Dativ → Dat" },
-    { "id": "m029", "text": "Ich lerne mit ___ Freund.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "mit → Dativ → Dat" },
-    { "id": "m030", "text": "Ich komme nach ___ Unterricht zu Hause.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "nach → Dativ → Dat" },
-    { "id": "m031", "text": "Ich sitze auf ___ Stuhl.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "auf (Ort) → Dativ → Dat" },
-    { "id": "m032", "text": "Ich liege unter ___ Tisch.", "answer": "dat", "targetCase": "dat", "gender": "masc", "hint": "unter (Ort) → Dativ → Dat" },
-
-    { "id": "m033", "text": "___ Hund ist groß.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Wer? → Nom" },
-    { "id": "m034", "text": "___ Ball ist neu.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Wer? → Nom" },
-    { "id": "m035", "text": "___ Lehrer kommt.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Subjekt → Nom" },
-    { "id": "m036", "text": "___ Text ist kurz.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Subjekt → Nom" },
-    { "id": "m037", "text": "___ Apfel ist rot.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Wer? → Nom" },
-    { "id": "m038", "text": "___ Park ist schön.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Subjekt → Nom" },
-    { "id": "m039", "text": "___ Vater arbeitet.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Subjekt → Nom" },
-    { "id": "m040", "text": "___ Freund hilft mir.", "answer": "nom", "targetCase": "nom", "gender": "masc", "hint": "Subjekt → Nom" }
+    {
+      "id": "m001",
+      "text": "Nach dem Essen sucht der Vater im ganzen Wohnzimmer ___ Schlüssel für das Auto.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "suchen + Akkusativ"
+    },
+    {
+      "id": "m002",
+      "text": "Im Sommer kauft die Familie auf dem Markt ___ Apfel aus der Region.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "kaufen + Akkusativ"
+    },
+    {
+      "id": "m003",
+      "text": "Nach dem Unterricht liest der Schüler noch einmal ___ Text in seinem Heft.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "lesen + Akkusativ"
+    },
+    {
+      "id": "m004",
+      "text": "Am Abend sieht das Kind im Park ___ Hund mit einem gelben Halsband.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "Wen sieht es?"
+    },
+    {
+      "id": "m005",
+      "text": "Vor der Reise packt der Mann vorsichtig ___ Computer in den Rucksack.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "packen + Akkusativ"
+    },
+    {
+      "id": "m006",
+      "text": "Im Kino versteht die Besucherin zuerst ___ Film nicht ganz.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "verstehen + Akkusativ"
+    },
+    {
+      "id": "m007",
+      "text": "Am Morgen nimmt der Junge schnell ___ Stift vom Schreibtisch.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "nehmen + Akkusativ"
+    },
+    {
+      "id": "m008",
+      "text": "Vor dem Bahnhof fotografiert die Touristin ___ Turm der alten Kirche.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "fotografieren + Akkusativ"
+    },
+    {
+      "id": "m009",
+      "text": "Am Nachmittag stellt der Mann den schweren Koffer neben ___ Schrank im Flur.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "neben + Richtung"
+    },
+    {
+      "id": "m010",
+      "text": "Vor dem Spiel legt der Junge den Ball unter ___ Tisch in der Garage.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "unter + Bewegung"
+    },
+    {
+      "id": "m011",
+      "text": "Nach der Schule hängt das Kind seinen Rucksack an ___ Stuhl am Fenster.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "an + Richtung"
+    },
+    {
+      "id": "m012",
+      "text": "Im Museum stellt die Frau sich vor ___ Spiegel mit dem goldenen Rahmen.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "vor + Richtung"
+    },
+    {
+      "id": "m013",
+      "text": "Am Wochenende hilft der Sohn ___ Vater im Garten beim Schneiden der Äste.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "helfen + Dativ"
+    },
+    {
+      "id": "m014",
+      "text": "Jeden Freitag geht der Schüler nach der Schule zu ___ Arzt im Stadtzentrum.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "zu + Dativ"
+    },
+    {
+      "id": "m015",
+      "text": "Am Nachmittag spricht die Tochter lange mit ___ Lehrer über die Prüfung.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "m016",
+      "text": "Nach dem Sport bleibt der Junge noch bei ___ Freund im Garten.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "bei + Dativ"
+    },
+    {
+      "id": "m017",
+      "text": "Vor dem Abendessen kommt der Vater aus ___ Keller mit einer Kiste Wasser.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "aus + Dativ"
+    },
+    {
+      "id": "m018",
+      "text": "Nach der Reise kommt die Familie von ___ Bahnhof direkt nach Hause.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "von + Dativ"
+    },
+    {
+      "id": "m019",
+      "text": "Im Bus sitzt das kleine Kind ruhig neben ___ Mann mit dem schwarzen Hut.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "neben + Ort"
+    },
+    {
+      "id": "m020",
+      "text": "Vor dem Haus steht das Fahrrad jetzt vor ___ Baum am Gartenzaun.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "vor + Ort"
+    },
+    {
+      "id": "m021",
+      "text": "Am Wochenende lernt das Mädchen mit ___ Bruder für den Test.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "m022",
+      "text": "Nach der Pause spielt das Kind noch mit ___ Ball auf dem Hof.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "m023",
+      "text": "Im Theater sitzt die Besucherin hinter ___ Herrn aus Hamburg.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "hinter + Ort"
+    },
+    {
+      "id": "m024",
+      "text": "Im Flur liegt der Teppich unter ___ Schrank mit den Schuhen.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "unter + Ort"
+    },
+    {
+      "id": "m025",
+      "text": "___ Hund von meinem Onkel wartet morgens immer vor der Haustür.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Wer wartet?"
+    },
+    {
+      "id": "m026",
+      "text": "___ Arzt im Stadtzentrum arbeitet auch am Samstagvormittag.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Wer arbeitet?"
+    },
+    {
+      "id": "m027",
+      "text": "___ Lehrer aus unserer Schule fährt heute mit dem Fahrrad.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Subjekt finden."
+    },
+    {
+      "id": "m028",
+      "text": "___ Ball im Garten gehört den Kindern von nebenan.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Was gehört ihnen?"
+    },
+    {
+      "id": "m029",
+      "text": "___ Schrank im Flur ist für Jacken und Taschen gedacht.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Was ist wofür gedacht?"
+    },
+    {
+      "id": "m030",
+      "text": "___ Spiegel an der Wand ist schon sehr alt.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Was ist alt?"
+    },
+    {
+      "id": "m031",
+      "text": "___ Vater von Lena kommt heute etwas später nach Hause.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Wer kommt später?"
+    },
+    {
+      "id": "m032",
+      "text": "___ Schlüssel auf dem kleinen Tisch ist wieder da.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Was ist wieder da?"
+    },
+    {
+      "id": "m033",
+      "text": "Am Abend besucht der Junge ___ Freund im Nachbarhaus.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "besuchen + Akkusativ"
+    },
+    {
+      "id": "m034",
+      "text": "Vor dem Schlafengehen schreibt die Mutter noch ___ Brief an ihren Bruder.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "schreiben + Akkusativ"
+    },
+    {
+      "id": "m035",
+      "text": "Am Sonntag geht die Familie in ___ Park am Fluss.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "in + Richtung"
+    },
+    {
+      "id": "m036",
+      "text": "Im Zug hört der Mann ___ Lautsprecher wegen der Verspätung sehr schlecht.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "masc",
+      "hint": "hören + Akkusativ"
+    },
+    {
+      "id": "m037",
+      "text": "Nach dem Essen redet die Tochter mit ___ Opa über seine Reise.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "m038",
+      "text": "Im Klassenzimmer sitzt der neue Schüler zwischen ___ Lehrer und der Direktorin.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "masc",
+      "hint": "zwischen + Ort"
+    },
+    {
+      "id": "m039",
+      "text": "___ Brief auf dem Schreibtisch ist für den Vater.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Was ist für ihn?"
+    },
+    {
+      "id": "m040",
+      "text": "___ Lautsprecher im Zug ist heute ungewöhnlich leise.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "masc",
+      "hint": "Was ist leise?"
+    }
   ]
 }

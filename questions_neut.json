@@ -1,46 +1,324 @@
 {
   "questions": [
-    { "id": "n001", "text": "Ich sehe ___ Kind.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "sehen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n002", "text": "Ich habe ___ Buch.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "haben → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n003", "text": "Wir kaufen ___ Eis.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "kaufen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n004", "text": "Ich finde ___ Heft.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "finden → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n005", "text": "Ich lese ___ Buch.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "lesen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n006", "text": "Ich höre ___ Radio.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "hören → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n007", "text": "Ich sehe ___ Auto.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "sehen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n008", "text": "Ich verstehe ___ Wort.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "verstehen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n009", "text": "Ich mag ___ Brot.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "mögen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n010", "text": "Ich suche ___ Spiel.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "suchen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n011", "text": "Ich nehme ___ Heft.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "nehmen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n012", "text": "Ich sehe ___ Fenster.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "sehen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n013", "text": "Ich kenne ___ Kind.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "kennen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n014", "text": "Ich öffne ___ Fenster.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "öffnen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n015", "text": "Ich brauche ___ Lineal.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "brauchen → Wen/Was? → Akk (Neut: das)" },
-    { "id": "n016", "text": "Ich sehe ___ Bild.", "answer": "akk", "targetCase": "akk", "gender": "neut", "hint": "sehen → Wen/Was? → Akk (Neut: das)" },
-
-    { "id": "n017", "text": "Ich helfe ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "helfen → Wem? → Dat (Neut: dem)" },
-    { "id": "n018", "text": "Ich spiele mit ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "mit → Dativ → Dat (Neut: dem)" },
-    { "id": "n019", "text": "Ich gehe zu ___ Auto.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "zu → Dativ → Dat (Neut: dem)" },
-    { "id": "n020", "text": "Ich bin bei ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "bei → Dativ → Dat (Neut: dem)" },
-    { "id": "n021", "text": "Ich komme aus ___ Haus.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "aus → Dativ → Dat (Neut: dem)" },
-    { "id": "n022", "text": "Ich spreche mit ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "mit → Dativ → Dat (Neut: dem)" },
-    { "id": "n023", "text": "Ich laufe mit ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "mit → Dativ → Dat (Neut: dem)" },
-    { "id": "n024", "text": "Ich sitze neben ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "neben (Ort) → Dativ → Dat (Neut: dem)" },
-    { "id": "n025", "text": "Ich wohne bei ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "bei → Dativ → Dat (Neut: dem)" },
-    { "id": "n026", "text": "Ich komme von ___ Haus.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "von → Dativ → Dat (Neut: dem)" },
-    { "id": "n027", "text": "Ich stehe vor ___ Haus.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "vor (Ort) → Dativ → Dat (Neut: dem)" },
-    { "id": "n028", "text": "Ich lerne mit ___ Kind.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "mit → Dativ → Dat (Neut: dem)" },
-    { "id": "n029", "text": "Ich komme nach ___ Essen nach Hause.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "nach → Dativ → Dat (Neut: dem)" },
-    { "id": "n030", "text": "Ich sitze auf ___ Sofa.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "auf (Ort) → Dativ → Dat (Neut: dem)" },
-    { "id": "n031", "text": "Ich liege unter ___ Bett.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "unter (Ort) → Dativ → Dat (Neut: dem)" },
-    { "id": "n032", "text": "Ich stehe hinter ___ Auto.", "answer": "dat", "targetCase": "dat", "gender": "neut", "hint": "hinter (Ort) → Dativ → Dat (Neut: dem)" },
-
-    { "id": "n033", "text": "___ Kind ist müde.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Wer/Was? → Nom (Neut: das)" },
-    { "id": "n034", "text": "___ Buch ist neu.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" },
-    { "id": "n035", "text": "___ Heft ist dünn.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" },
-    { "id": "n036", "text": "___ Auto ist schnell.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" },
-    { "id": "n037", "text": "___ Fenster ist offen.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" },
-    { "id": "n038", "text": "___ Eis ist kalt.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" },
-    { "id": "n039", "text": "___ Brot ist frisch.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" },
-    { "id": "n040", "text": "___ Haus ist groß.", "answer": "nom", "targetCase": "nom", "gender": "neut", "hint": "Subjekt → Nom (Neut: das)" }
+    {
+      "id": "n001",
+      "text": "Am Morgen öffnet die Lehrerin zuerst ___ Fenster im Klassenzimmer.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "öffnen + Akkusativ"
+    },
+    {
+      "id": "n002",
+      "text": "Vor dem Schlafengehen liest das Kind noch ___ Buch über Tiere.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "lesen + Akkusativ"
+    },
+    {
+      "id": "n003",
+      "text": "Nach dem Frühstück nimmt der Schüler ___ Heft aus der Schultasche.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "nehmen + Akkusativ"
+    },
+    {
+      "id": "n004",
+      "text": "Am Abend fotografiert die Mutter ___ Haus mit dem schönen Garten.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "fotografieren + Akkusativ"
+    },
+    {
+      "id": "n005",
+      "text": "Vor dem Spiel sucht der Junge überall im Zimmer ___ Spiel vom letzten Geburtstag.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "suchen + Akkusativ"
+    },
+    {
+      "id": "n006",
+      "text": "Im Unterricht versteht die Schülerin endlich ___ Wort an der Tafel.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "verstehen + Akkusativ"
+    },
+    {
+      "id": "n007",
+      "text": "Vor dem Abendessen bringt die Schwester ___ Brot aus der Küche an den Tisch.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "bringen + Akkusativ"
+    },
+    {
+      "id": "n008",
+      "text": "Am Wochenende besucht die Familie ___ Museum am Fluss.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "besuchen + Akkusativ"
+    },
+    {
+      "id": "n009",
+      "text": "Nach dem Training legt der Junge sein Handy auf ___ Sofa im Wohnzimmer.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "auf + Bewegung"
+    },
+    {
+      "id": "n010",
+      "text": "Vor dem Unterricht stellt die Lehrerin den Stuhl vor ___ Fenster an der Wand.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "vor + Richtung"
+    },
+    {
+      "id": "n011",
+      "text": "Am Abend hängt der Vater das Bild über ___ Bett im Gästezimmer.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "über + Bewegung"
+    },
+    {
+      "id": "n012",
+      "text": "Nach der Reise trägt die Familie das Gepäck in ___ Hotel am Bahnhof.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "in + Richtung"
+    },
+    {
+      "id": "n013",
+      "text": "Nach dem Training sitzt der Junge lange auf ___ Sofa und ruht sich aus.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "auf + Ort"
+    },
+    {
+      "id": "n014",
+      "text": "Nach der Reise kommt die Familie endlich aus ___ Hotel am Bahnhof.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "aus + Dativ"
+    },
+    {
+      "id": "n015",
+      "text": "Am Nachmittag spricht die Lehrerin mit ___ Kind aus der vierten Klasse.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "n016",
+      "text": "Vor dem Haus steht der Junge bei ___ Auto seines Onkels.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "bei + Dativ"
+    },
+    {
+      "id": "n017",
+      "text": "Nach dem Unterricht hilft die Schwester ___ Kind bei den Hausaufgaben.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "helfen + Dativ"
+    },
+    {
+      "id": "n018",
+      "text": "Am Abend sitzt die Katze unter ___ Bett im Kinderzimmer.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "unter + Ort"
+    },
+    {
+      "id": "n019",
+      "text": "Im Hof steht das Fahrrad hinter ___ Auto mit dem roten Licht.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "hinter + Ort"
+    },
+    {
+      "id": "n020",
+      "text": "Nach dem Essen bleibt das Brot noch auf ___ Brett neben der Spüle.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "auf + Ort"
+    },
+    {
+      "id": "n021",
+      "text": "Am Wochenende lernt der Junge mit ___ Tablet für den Englischtest.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "n022",
+      "text": "Vor der Schule wartet die Mutter vor ___ Tor des alten Gebäudes.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "vor + Ort"
+    },
+    {
+      "id": "n023",
+      "text": "Nach dem Film redet das Kind noch lange von ___ Ende der Geschichte.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "von + Dativ"
+    },
+    {
+      "id": "n024",
+      "text": "Am Nachmittag sitzt der Hund neben ___ Fahrrad im Garten.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "neben + Ort"
+    },
+    {
+      "id": "n025",
+      "text": "___ Bild über dem Bett gefällt dem Kind besonders gut.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was gefällt ihm?"
+    },
+    {
+      "id": "n026",
+      "text": "___ Fenster im Klassenzimmer ist heute schon offen.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was ist offen?"
+    },
+    {
+      "id": "n027",
+      "text": "___ Buch auf dem Tisch gehört der Lehrerin.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was gehört ihr?"
+    },
+    {
+      "id": "n028",
+      "text": "___ Brot aus der kleinen Bäckerei schmeckt sehr gut.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was schmeckt gut?"
+    },
+    {
+      "id": "n029",
+      "text": "___ Haus am Ende der Straße ist fast zweihundert Jahre alt.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was ist alt?"
+    },
+    {
+      "id": "n030",
+      "text": "___ Hotel am Bahnhof ist im Sommer oft voll.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was ist oft voll?"
+    },
+    {
+      "id": "n031",
+      "text": "___ Auto meines Onkels steht heute nicht vor dem Haus.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was steht nicht dort?"
+    },
+    {
+      "id": "n032",
+      "text": "___ Spiel aus dem Schrank ist für die kleine Schwester.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was ist für sie?"
+    },
+    {
+      "id": "n033",
+      "text": "Vor dem Unterricht schließt der Hausmeister ___ Fenster im Flur.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "schließen + Akkusativ"
+    },
+    {
+      "id": "n034",
+      "text": "Am Sonntag bringt der Vater ___ Fahrrad in die Garage.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "bringen + Akkusativ"
+    },
+    {
+      "id": "n035",
+      "text": "Vor dem Essen legt das Kind das Handy neben ___ Bett.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "neben + Richtung"
+    },
+    {
+      "id": "n036",
+      "text": "Im Unterricht schreibt die Schülerin ___ Wort ganz langsam auf.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "neut",
+      "hint": "aufschreiben + Akkusativ"
+    },
+    {
+      "id": "n037",
+      "text": "Nach dem Spiel redet der Vater mit ___ Team seines Sohnes.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "n038",
+      "text": "Am Bahnhof steht die Familie vor ___ Gebäude mit der großen Uhr.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "neut",
+      "hint": "vor + Ort"
+    },
+    {
+      "id": "n039",
+      "text": "___ Fahrrad in der Garage gehört dem Nachbarn.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was gehört ihm?"
+    },
+    {
+      "id": "n040",
+      "text": "___ Team aus unserer Schule spielt heute besonders gut.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "neut",
+      "hint": "Was spielt gut?"
+    }
   ]
 }

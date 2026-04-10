@@ -1,46 +1,324 @@
 {
   "questions": [
-    { "id": "f001", "text": "Ich sehe ___ Katze.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "sehen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f002", "text": "Ich habe ___ Tasche.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "haben → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f003", "text": "Wir kaufen ___ Banane.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "kaufen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f004", "text": "Ich finde ___ Uhr.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "finden → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f005", "text": "Ich lese ___ Geschichte.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "lesen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f006", "text": "Ich höre ___ Musik.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "hören → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f007", "text": "Ich sehe ___ Lehrerin.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "sehen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f008", "text": "Ich verstehe ___ Frage.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "verstehen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f009", "text": "Ich mag ___ Suppe.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "mögen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f010", "text": "Ich suche ___ Lampe.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "suchen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f011", "text": "Ich nehme ___ Flasche.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "nehmen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f012", "text": "Ich sehe ___ Straße.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "sehen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f013", "text": "Ich kenne ___ Frau.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "kennen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f014", "text": "Ich öffne ___ Tür.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "öffnen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f015", "text": "Ich brauche ___ Schere.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "brauchen → Wen/Was? → Akk (Fem: die)" },
-    { "id": "f016", "text": "Ich sehe ___ Schule.", "answer": "akk", "targetCase": "akk", "gender": "fem", "hint": "sehen → Wen/Was? → Akk (Fem: die)" },
-
-    { "id": "f017", "text": "Ich helfe ___ Mutter.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "helfen → Wem? → Dat (Fem: der)" },
-    { "id": "f018", "text": "Ich spiele mit ___ Katze.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "mit → Dativ → Dat (Fem: der)" },
-    { "id": "f019", "text": "Ich gehe zu ___ Ärztin.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "zu → Dativ → Dat (Fem: der)" },
-    { "id": "f020", "text": "Ich bin bei ___ Freundin.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "bei → Dativ → Dat (Fem: der)" },
-    { "id": "f021", "text": "Ich komme aus ___ Schule.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "aus → Dativ → Dat (Fem: der)" },
-    { "id": "f022", "text": "Ich spreche mit ___ Lehrerin.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "mit → Dativ → Dat (Fem: der)" },
-    { "id": "f023", "text": "Ich laufe mit ___ Katze.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "mit → Dativ → Dat (Fem: der)" },
-    { "id": "f024", "text": "Ich sitze neben ___ Frau.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "neben (Ort) → Dativ → Dat (Fem: der)" },
-    { "id": "f025", "text": "Ich wohne bei ___ Oma.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "bei → Dativ → Dat (Fem: der)" },
-    { "id": "f026", "text": "Ich spiele mit ___ Schwester.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "mit → Dativ → Dat (Fem: der)" },
-    { "id": "f027", "text": "Ich komme von ___ Schule.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "von → Dativ → Dat (Fem: der)" },
-    { "id": "f028", "text": "Ich stehe vor ___ Tür.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "vor (Ort) → Dativ → Dat (Fem: der)" },
-    { "id": "f029", "text": "Ich lerne mit ___ Freundin.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "mit → Dativ → Dat (Fem: der)" },
-    { "id": "f030", "text": "Ich komme nach ___ Schule nach Hause.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "nach → Dativ → Dat (Fem: der)" },
-    { "id": "f031", "text": "Ich sitze auf ___ Bank.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "auf (Ort) → Dativ → Dat (Fem: der)" },
-    { "id": "f032", "text": "Ich liege unter ___ Decke.", "answer": "dat", "targetCase": "dat", "gender": "fem", "hint": "unter (Ort) → Dativ → Dat (Fem: der)" },
-
-    { "id": "f033", "text": "___ Katze ist klein.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Wer? → Nom (Fem: die)" },
-    { "id": "f034", "text": "___ Tasche ist schwer.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Subjekt → Nom (Fem: die)" },
-    { "id": "f035", "text": "___ Lehrerin kommt.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Subjekt → Nom (Fem: die)" },
-    { "id": "f036", "text": "___ Frage ist leicht.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Wer/Was? → Nom (Fem: die)" },
-    { "id": "f037", "text": "___ Schule ist groß.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Subjekt → Nom (Fem: die)" },
-    { "id": "f038", "text": "___ Tür ist offen.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Subjekt → Nom (Fem: die)" },
-    { "id": "f039", "text": "___ Straße ist lang.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Subjekt → Nom (Fem: die)" },
-    { "id": "f040", "text": "___ Musik ist schön.", "answer": "nom", "targetCase": "nom", "gender": "fem", "hint": "Subjekt → Nom (Fem: die)" }
+    {
+      "id": "f001",
+      "text": "Am Abend sehe ich im Garten plötzlich ___ Katze von unserer Nachbarin.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "Achte auf das Verb."
+    },
+    {
+      "id": "f002",
+      "text": "Im Supermarkt kauft die Frau vor mir gerade ___ Banane für ihr Kind.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "Was kauft sie?"
+    },
+    {
+      "id": "f003",
+      "text": "Vor dem Schlafengehen sucht das Mädchen überall im Zimmer ___ Schere für den Bastelunterricht.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "suchen + Akkusativ"
+    },
+    {
+      "id": "f004",
+      "text": "Nach dem Frühstück liest der Vater am Tisch ___ Zeitung aus der Stadt.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "lesen + Akkusativ"
+    },
+    {
+      "id": "f005",
+      "text": "Im Musikunterricht hört die Klasse heute ___ Geschichte über Mozart.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "hören + Akkusativ"
+    },
+    {
+      "id": "f006",
+      "text": "Vor dem Haus sieht der Junge im Regen ___ Lehrerin mit einem roten Schirm.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "Wen sieht er?"
+    },
+    {
+      "id": "f007",
+      "text": "Nach der Pause versteht die Schülerin endlich ___ Frage an der Tafel.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "verstehen + Akkusativ"
+    },
+    {
+      "id": "f008",
+      "text": "Am Morgen trägt die Mutter vorsichtig ___ Tasche mit den Sportsachen ins Auto.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "tragen + Akkusativ"
+    },
+    {
+      "id": "f009",
+      "text": "Vor dem Essen stellt das Kind die Tasse auf ___ Bank im Flur.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "auf + Richtung"
+    },
+    {
+      "id": "f010",
+      "text": "Wegen des Windes legt der Mann die Decke schnell über ___ Lampe im Garten.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "über + Bewegung"
+    },
+    {
+      "id": "f011",
+      "text": "Nach dem Spiel hängt die Tochter ihre Jacke an ___ Tür im Flur.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "an + Richtung"
+    },
+    {
+      "id": "f012",
+      "text": "Vor dem Unterricht legt der Schüler das Heft unter ___ Tasche auf den Stuhl.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "unter + Bewegung"
+    },
+    {
+      "id": "f013",
+      "text": "Am Wochenende hilft die Tochter ___ Mutter in der Küche beim Kochen.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "helfen + Dativ"
+    },
+    {
+      "id": "f014",
+      "text": "Nach dem Unterricht spricht der Junge noch kurz mit ___ Lehrerin über die Hausaufgaben.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "f015",
+      "text": "Am Nachmittag geht die Frau mit dem Kind zu ___ Ärztin im Nachbarhaus.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "zu + Dativ"
+    },
+    {
+      "id": "f016",
+      "text": "Am Wochenende übernachtet das Mädchen bei ___ Freundin in der Altstadt.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "bei + Dativ"
+    },
+    {
+      "id": "f017",
+      "text": "Nach dem Konzert kommt der Besucher aus ___ Halle auf den Platz.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "aus + Dativ"
+    },
+    {
+      "id": "f018",
+      "text": "Auf dem Heimweg redet der Schüler lange mit ___ Schwester über den Film.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "f019",
+      "text": "Im Wartezimmer sitzt der Mann ruhig neben ___ Frau mit dem blauen Mantel.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "neben + Ort"
+    },
+    {
+      "id": "f020",
+      "text": "Im Winter steht das Fahrrad oft vor ___ Garage hinter dem Haus.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "vor + Ort"
+    },
+    {
+      "id": "f021",
+      "text": "Nach der Schule lernt das Kind heute bei ___ Oma in der Küche.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "bei + Dativ"
+    },
+    {
+      "id": "f022",
+      "text": "Vor der Prüfung arbeitet die Schülerin noch mit ___ Freundin in der Bibliothek.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "f023",
+      "text": "Nach dem Schwimmen kommt der Junge von ___ Brücke am Fluss zurück.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "von + Dativ"
+    },
+    {
+      "id": "f024",
+      "text": "Im Garten liegt der Ball jetzt unter ___ Decke auf der Bank.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "unter + Ort"
+    },
+    {
+      "id": "f025",
+      "text": "___ Katze von unserer Nachbarin schläft oft auf der warmen Mauer.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Wer schläft?"
+    },
+    {
+      "id": "f026",
+      "text": "___ Tasche mit den Sportsachen steht heute neben der Tür.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was steht dort?"
+    },
+    {
+      "id": "f027",
+      "text": "___ Lehrerin aus Berlin erklärt die Aufgabe sehr ruhig.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Subjekt finden."
+    },
+    {
+      "id": "f028",
+      "text": "___ Frage in Aufgabe drei ist für viele Kinder noch schwer.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was ist schwer?"
+    },
+    {
+      "id": "f029",
+      "text": "___ Lampe über dem Esstisch ist am Abend besonders hell.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was ist hell?"
+    },
+    {
+      "id": "f030",
+      "text": "___ Mutter von Paul arbeitet heute im Homeoffice.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Wer arbeitet?"
+    },
+    {
+      "id": "f031",
+      "text": "___ Garage hinter dem Haus ist schon sehr alt.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was ist alt?"
+    },
+    {
+      "id": "f032",
+      "text": "___ Decke auf dem Sofa ist im Winter immer sehr warm.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was ist warm?"
+    },
+    {
+      "id": "f033",
+      "text": "Vor dem Mittagessen trägt die Schwester ___ Flasche Wasser in den Garten.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "tragen + Akkusativ"
+    },
+    {
+      "id": "f034",
+      "text": "Nach dem Einkauf stellt die Mutter den Korb neben ___ Tür zur Küche.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "neben + Richtung"
+    },
+    {
+      "id": "f035",
+      "text": "Im Museum schaut der Besucher lange auf ___ Karte an der Wand.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "auf etwas schauen"
+    },
+    {
+      "id": "f036",
+      "text": "Am Abend schreibt der Schüler noch ___ Nachricht an seine Lehrerin.",
+      "answer": "akk",
+      "targetCase": "akk",
+      "gender": "fem",
+      "hint": "schreiben + Akkusativ"
+    },
+    {
+      "id": "f037",
+      "text": "Nach dem Training spricht die Mutter mit ___ Trainerin über das nächste Spiel.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "mit + Dativ"
+    },
+    {
+      "id": "f038",
+      "text": "Auf dem Foto steht der Junge zwischen ___ Schwester und seinem Bruder.",
+      "answer": "dat",
+      "targetCase": "dat",
+      "gender": "fem",
+      "hint": "zwischen + Ort"
+    },
+    {
+      "id": "f039",
+      "text": "___ Flasche auf dem Tisch gehört dem kleinen Kind.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was gehört ihm?"
+    },
+    {
+      "id": "f040",
+      "text": "___ Nachricht von der Schule kommt heute erst am Abend.",
+      "answer": "nom",
+      "targetCase": "nom",
+      "gender": "fem",
+      "hint": "Was kommt heute?"
+    }
   ]
 }

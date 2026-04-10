@@ -319,8 +319,24 @@ async function init() {
   resetSessionStats();
 }
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js');
+async function cleanupServiceWorkerCaches() {
+  if (!('serviceWorker' in navigator)) return;
+
+  try {
+    const registrations = await navigator.serviceWorker.getRegistrations();
+    await Promise.all(registrations.map((registration) => registration.unregister()));
+  } catch (e) {
+    console.warn('Service worker unregister failed:', e);
+  }
+
+  if (!('caches' in window)) return;
+
+  try {
+    const keys = await caches.keys();
+    await Promise.all(keys.map((key) => caches.delete(key)));
+  } catch (e) {
+    console.warn('Cache cleanup failed:', e);
+  }
 }
 
-init();
+cleanupServiceWorkerCaches().finally(init);

@@ -2,6 +2,8 @@
 
 const DEFAULT_SESSION_SIZE = 20;
 const GENDER_KEY = 'artikel_drill_gender_v1';
+const KIDS_APP_PROGRESS_KEY = 'kids-app-study-progress-v1';
+const KIDS_APP_APP_ID = 'artikel';
 
 const QUESTION_FILES = {
   masc: 'questions_masc.json',
@@ -91,6 +93,7 @@ function resetSessionStats() {
   elAkk.textContent = '-';
   elDat.textContent = '-';
   renderMistakes();
+  reportKidsAppProgress(score);
 }
 
 function updateProgress() {
@@ -220,6 +223,7 @@ function handleChoice(choiceKey) {
 
 
   elBtnNext.disabled = false;
+  reportKidsAppProgress(score);
 }
 
 function finishSession() {
@@ -241,6 +245,31 @@ function finishSession() {
 
   renderMistakes();
   setFeedback('', 'Noch einmal? Start drücken.');
+  reportKidsAppProgress(score);
+}
+
+function getKidsAppTodayKey() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function reportKidsAppProgress(correctCount) {
+  try {
+    const today = getKidsAppTodayKey();
+    const raw = JSON.parse(localStorage.getItem(KIDS_APP_PROGRESS_KEY) || '{}');
+    raw[today] ??= {};
+
+    const prev = Number(raw[today][KIDS_APP_APP_ID]?.correct) || 0;
+    raw[today][KIDS_APP_APP_ID] = {
+      correct: Math.max(prev, Math.max(0, Math.floor(Number(correctCount) || 0))),
+      updatedAt: new Date().toISOString()
+    };
+
+    localStorage.setItem(KIDS_APP_PROGRESS_KEY, JSON.stringify(raw));
+  } catch {}
 }
 
 // Gender switching
